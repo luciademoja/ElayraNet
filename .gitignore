@@ -1,0 +1,54 @@
+# Cartelle e file generati da Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/  # Se usi Jupyter Notebooks
+
+# Ambiente virtuale
+env/
+venv/
+
+# File di configurazione locali (spesso contengono chiavi API o percorsi locali)
+# Questi file NON dovrebbero essere committati nel repository pubblico!
+config.py
+mock_assistant_config.json # File di configurazione per i test
+*.env
+.flaskenv
+
+# File di log e di output
+*.log
+*.txt  # Se hai file di testo generati o temporanei che non vuoi tracciare
+       # Attenzione: se i tuoi file persona sono .txt e vuoi tracciarli,
+       # allora rimuovi questa riga e aggiungi i nomi specifici dei file che vuoi ignorare.
+       # Esempio:
+       # shared_log.txt
+
+# File specifici del tuo progetto ElayraNet che sembrano temporanei o di test
+# Questi sono stati visti nel tuo `git status` come eliminati o untracked
+persona_elayra.txt
+persona_lumen.txt
+elayra_persona_prompt_file.txt # Se questo è il nome definitivo del file
+lumen_persona_prompt_file.txt  # Se questo è il nome definitivo del file
+
+# File di sistema e di backup (Windows, macOS)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# File temporanei degli IDE (es. VS Code, PyCharm, etc.)
+.idea/      # Per PyCharm
+.vscode/    # Per VS Code
+*.iml       # Per IntelliJ IDEA
+*.code-workspace # Per VS Code workspace
+
+# Output di test o copertura codice
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Eventuali altri file temporanei o di output che non vuoi tracciare
+# Aggiungi qui altri pattern se scopri altri file che Git continua a segnalare
