@@ -4,21 +4,21 @@
 
 ## Table of Contents
 
-* [Introduction: The Purpose of ElayraNet](#introduction-the-purpose-of-elayranet)
-* [Technical Requirements](#technical-requirements)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)
-    * [API Key Configuration](#api-key-configuration)
-* [Architecture and Functionality](#architecture-and-functionality)
-    * [Interaction Flow](#interaction-flow)
-    * [Memory Management](#memory-management)
-    * [Error Handling](#error-handling)
-    * [User Interface](#user-interface)
-* [Project Structure](#project-structure)
-* [Development Guide (Test-Driven Development)](#development-guide-test-driven-development)
-    * [Running Tests](#running-tests)
-    * [Development Principles](#development-principles)
-* [Additional Notes](#additional-notes)
+* Introduction: The Purpose of ElayraNet
+* Technical Requirements
+    * Prerequisites
+    * Installation
+    * API Key Configuration
+* Architecture and Functionality
+    * Interaction Flow
+    * Memory Management
+    * Error Handling
+    * User Interface
+* Project Structure
+* Development Guide (Test-Driven Development
+    * Running Tests
+    * Development Principles
+* Additional Notes
 
 ---
 
